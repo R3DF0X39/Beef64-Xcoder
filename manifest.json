@@ -1,0 +1,17 @@
+{
+  "name": "Beef64 Xcoder",
+  "version": "1.0.0",
+  "description": "Encode and Decode Base64 strings",
+  "permissions": ["activeTab", "storage", "contextMenus"],
+  "browser_action": {
+    "default_popup": "popup.html",
+	"default_icon": "icons/image128.png"
+  },
+  "icons": {
+    "16": "icons/image16.png",
+    "48": "icons/image48.png",
+	"96": "icons/image48.png",
+    "128": "icons/image128.png"
+  },
+  "manifest_version": 2
+}
